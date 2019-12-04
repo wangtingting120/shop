@@ -21,17 +21,17 @@
         <i-grid-label>{{grid.title}}</i-grid-label>
     </i-grid-item>
     </i-grid>
+
 <i-panel :title="title_name">
     <view style="padding: 15px;">
+
         <i-card v-for="item in top" :key="item" i-class="split" :extra="item.name" :thumb="item.image">
         <view slot="content">{{item.remark}}</view>
         <view slot="footer">{{item.address}}</view>
         </i-card>
-
-       
-        
     </view>
 </i-panel>
+
 </div>
  
 </template>
@@ -50,7 +50,7 @@ export default {
         {title:"鞋子",image:"/static/images/4.png"}
       ],
       top:[
-        {name:"店铺1",address:"地址1",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍1"},
+        {name:"店铺1",address:"地址1",image:"/static/images/xu.jpg",remark:"介绍1"},
         {name:"店铺2",address:"地址2",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍2"},
         {name:"店铺3",address:"地址3",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍3"},
         {name:"店铺4",address:"地址4",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍4"}
