@@ -7,11 +7,11 @@
     <open-data type="userNickName"></open-data>
     </view>
 
-   
-    
-    <i-panel :title="title_name">
-    <view style="padding: 15px;">
-<i-grid i-class="no-border">
+
+<i-card title="我的订单" extra="查看全部订单>" >
+    <view slot="content">
+     
+    <i-grid i-class="no-border">
     <i-grid-item @click="goType(grid)" v-for="grid in grids" :key="grid" i-class="no-border">
         <i-grid-icon>
             <image :src="grid.image" />
@@ -19,9 +19,13 @@
         <i-grid-label>{{grid.title}}</i-grid-label>
     </i-grid-item>
     </i-grid>
-     
+   </view>
+    <view slot="footer">尾部内容
+
+
+      
     </view>
-</i-panel>
+</i-card>
  
 
 
@@ -39,7 +43,7 @@ export default {
         {title:"待付款",image:"/static/images/11.png"},
         {title:"待收货",image:"/static/images/12.png"},
         {title:"评价",image:"/static/images/13.png"},
-        {title:"退款/售后",image:"/static/images/14.png"}
+        {title:"售后",image:"/static/images/14.png"}
       ],
       
     }
