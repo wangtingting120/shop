@@ -27,14 +27,14 @@
     }, {
       "text": "展示",
       "pagePath": "pages/show/main",
-      "iconPath": "static/images/map.png",
-      "selectedIconPath": "static/images/_map.png"
+      "iconPath": "static/images/show.png",
+      "selectedIconPath": "static/images/_show.png"
     },
     {
       "text": "购物车",
       "pagePath": "pages/shop/main",
-      "iconPath": "static/images/mine.png",
-      "selectedIconPath": "static/images/_mine.png"
+      "iconPath": "static/images/gou.png",
+      "selectedIconPath": "static/images/_gou.png"
     },
     
     {
