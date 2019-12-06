@@ -8,6 +8,7 @@
         "i-panel": "../../../static/dist/panel/index",
         "i-card": "../../../static/dist/card/index",
         "i-cell-group":"../../../static/dist/cell-group/index",
-        "i-input": "../../../static/dist/input/index"
+        "i-input": "../../../static/dist/input/index",
+        "i-divider": "../../static/dist/divider/index"
     }
 }
