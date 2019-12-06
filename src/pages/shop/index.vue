@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>标签 </h1>
-  <div> ceshi1</div>
+ 
 <i-panel title="基础用法">
     <i-input value=" " title="收货人" autofocus placeholder="名字" />
     <i-input value=" " type="number" title="联系电话" placeholder="请输入手机号" />

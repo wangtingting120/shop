@@ -1,10 +1,16 @@
 <template>
   <div>
-    <swiper
+    <i-panel class="search">
+    <input type="text" confirm-type="search" placeholder="请搜索喜欢的商品">
+   </i-panel>
+   
+   <swiper 
     :indicator-dots="indicatorDots"
     :autoplay="autoplay"
     :interval="interval"
     :duration="duration"
+    :circular="circular"
+    
     >
     <block v-for="img in imgUrls" :key="img">
       <swiper-item>
@@ -31,6 +37,43 @@
         </i-card>
     </view>
 </i-panel>
+
+<i-panel :title="title_name">
+  <view class="wrap">
+    <view class="product">
+       <image src="/static/images/21.jpg" mode="widthFix" ></image>
+       <view class="info">
+         <text class="name">仙女裙</text>
+         <text class="price">100</text>
+       </view>
+   </view>
+     <view class="product">
+       <image src="/static/images/21.jpg" mode="widthFix" ></image>
+       <view class="info">
+         <text class="name">仙女裙</text>
+         <text class="price">100</text>
+       </view>
+   </view>
+        <view class="product">
+       <image src="/static/images/21.jpg" mode="widthFix" ></image>
+       <view class="info">
+         <text class="name">仙女裙</text>
+         <text class="price">100</text>
+       </view>
+   </view>
+        <view class="product">
+       <image src="/static/images/21.jpg" mode="widthFix" ></image>
+       <view class="info">
+         <text class="name">仙女裙</text>
+         <text class="price">100</text>
+       </view>
+   </view>
+     
+   </view>
+
+</i-panel>
+
+
 
 </div>
  
@@ -82,6 +125,8 @@ export default {
 
     }
    
+
+  
     },
 
   created () {
@@ -96,5 +141,51 @@ div >>> .no-border{
 }
 div >>> .split{
   margin-bottom:10pt;
+}
+.search{
+  display:flex;
+  height:60rpx;
+  border:1px solid rgb(235, 129, 29);
+  padding-left:20rpx;
+  color:#6666;
+  border-radius:30rpx;
+  margin:10rpx 0;
+  font-size:22rpx;
+  background-color: white;
+}
+.wrap{
+  background-color: rgba(187, 20, 20, 0.4);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.wrap .product{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:46%;
+  margin:6rpx 10rpx;
+  background-color: rgba(12, 10, 31, 0.4);
+  border-bottom-left-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+}
+.product image{
+  width:100%;
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around; 
+
+
+}
+.name{
+  color:white;
+}
+.info .price{
+  color:red;
 }
 </style>
