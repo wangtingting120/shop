@@ -1,5 +1,5 @@
 {
-    "navigationBarTitleText": "在线购物",
+    "navigationBarTitleText": "小T的店",
     "usingComponents": {
         "i-grid": "../../../static/dist/grid/index",
         "i-grid-item": "../../../static/dist/grid-item/index",

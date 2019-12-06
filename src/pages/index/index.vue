@@ -29,49 +29,19 @@
     </i-grid>
 
 <i-panel :title="title_name">
-    <view style="padding: 15px;">
-
-        <i-card v-for="item in top" :key="item" i-class="split" :extra="item.name" :thumb="item.image">
-        <view slot="content">{{item.remark}}</view>
-        <view slot="footer">{{item.address}}</view>
-        </i-card>
-    </view>
-</i-panel>
-
-<i-panel :title="title_name">
   <view class="wrap">
-    <view class="product">
-       <image src="/static/images/21.jpg" mode="widthFix" ></image>
+    <view v-for="item in bo" :key="item" class="product">
+       <image :src="item.image" style="width:100%"/>
        <view class="info">
-         <text class="name">仙女裙</text>
-         <text class="price">100</text>
-       </view>
-   </view>
-     <view class="product">
-       <image src="/static/images/21.jpg" mode="widthFix" ></image>
-       <view class="info">
-         <text class="name">仙女裙</text>
-         <text class="price">100</text>
-       </view>
-   </view>
-        <view class="product">
-       <image src="/static/images/21.jpg" mode="widthFix" ></image>
-       <view class="info">
-         <text class="name">仙女裙</text>
-         <text class="price">100</text>
-       </view>
-   </view>
-        <view class="product">
-       <image src="/static/images/21.jpg" mode="widthFix" ></image>
-       <view class="info">
-         <text class="name">仙女裙</text>
-         <text class="price">100</text>
+         <text class="name">{{item.name}}</text>
+         <text class="price">{{item.price}}</text>
        </view>
    </view>
      
    </view>
 
 </i-panel>
+
 
 
 
@@ -92,14 +62,15 @@ export default {
         {title:"裤子",image:"/static/images/3.png"},
         {title:"鞋子",image:"/static/images/4.png"}
       ],
-      top:[
-        {name:"店铺1",address:"地址1",image:"/static/images/xu.jpg",remark:"介绍1"},
-        {name:"店铺2",address:"地址2",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍2"},
-        {name:"店铺3",address:"地址3",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍3"},
-        {name:"店铺4",address:"地址4",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍4"}
-
-
-
+      bo:[
+        {image:"/static/images/ku1.jpg",name:"裤子",price:"100元"},
+        {image:"/static/images/wai1.jpg",name:"外套",price:"100元"},
+        {image:"/static/images/ku2.jpg",name:"裤子",price:"120元"},
+        {image:"/static/images/mao2.jpg",name:"帽子",price:"65元"},
+        {image:"/static/images/xie1.jpg",name:"鞋子",price:"100元"},
+        {image:"/static/images/wai2.jpg",name:"外套",price:"1250元"},
+        {image:"/static/images/xie2.jpg",name:"鞋子",price:"120元"},
+        {image:"/static/images/mao1.jpg",name:"帽子",price:"50元"}
       ],
       imgUrls:[
         'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
@@ -124,8 +95,7 @@ export default {
       mpvue.navigateTo({url})
 
     }
-   
-
+    
   
     },
 
