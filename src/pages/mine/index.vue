@@ -10,7 +10,6 @@
 
 <i-card title="我的订单" extra="查看全部订单>" >
     <view slot="content">
-     
     <i-grid i-class="no-border">
     <i-grid-item @click="goType(grid)" v-for="grid in grids" :key="grid" i-class="no-border">
         <i-grid-icon>
@@ -20,11 +19,21 @@
     </i-grid-item>
     </i-grid>
    </view>
-    <view slot="footer">尾部内容
+    <view slot="footer"></view>
+</i-card>
 
-
-      
-    </view>
+<i-card title="必备工具" extra="查看全部工具>" >
+    <view slot="content">
+    <i-grid i-class="no-border">
+    <i-grid-item  v-for="po in pos" :key="po" i-class="no-border">
+        <i-grid-icon>
+            <image :src="po.image" />
+        </i-grid-icon>
+        <i-grid-label>{{po.title}}</i-grid-label>
+    </i-grid-item>
+    </i-grid>
+   </view>
+    <view slot="footer"></view>
 </i-card>
  
 
@@ -45,6 +54,13 @@ export default {
         {title:"评价",image:"/static/images/13.png"},
         {title:"售后",image:"/static/images/14.png"}
       ],
+      pos:[
+        {title:"花呗",image:"/static/images/hua.png"},
+        {title:"菜鸟驿站",image:"/static/images/cai.png"},
+        {title:"客服小蜜",image:"/static/images/ke.png"},
+        {title:"主题换肤",image:"/static/images/zhu.png"}
+      ]
+
       
     }
   },
