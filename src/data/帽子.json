@@ -1,11 +1,10 @@
 
     [
-        {"name":"帽子1","address":"地址1","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍1"},
-        {"name":"帽子2","address":"地址2","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍2"},
-        {"name":"帽子3","address":"地址3","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍3"},
-        {"name":"帽子4","address":"地址4","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍4"}
+      {"name":"鹿角帽","address":"￥26","image":"/static/images/mao11.jpg","remark":"帽子女秋冬天韩版可爱鹿角毛线帽日系冬季百搭加厚保暖护耳针织帽"},
+      {"name":"针织帽","address":"￥52","image":"/static/images/mao12.jpg","remark":"针织毛线帽子女秋冬季韩版百搭休闲冬天甜美可爱潮韩国ins男冷帽"},
+      {"name":"帽子","address":"￥40","image":"/static/images/mao13.jpg","remark":"帽子女秋冬韩版百搭护耳毛线帽冬季学生ins针织帽保暖刺绣潮冬天"},
+      {"name":"渔夫帽","address":"￥50","image":"/static/images/mao14.jpg","remark":"帽子女秋冬天韩版潮百搭盆帽日系保暖帽子明星同款毛呢纯色渔夫帽"}
 
 
 
-      ]
-
+    ]

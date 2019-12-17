@@ -1,7 +1,7 @@
 <template>
   <div>
   
-<i-card title="哈哈" extra="..." thumb="/static/images/001.png">
+<i-card title="哈哈" extra="..." thumb="/static/images/001.png" class="tou">
     <view slot="content">
       <swiper autoplay circular indicator-dots>
       <swiper-item>
@@ -30,10 +30,12 @@
 <i-card title="哈皮" extra="..." thumb="/static/images/003.png">
     <view slot="content"><image src="/static/images/22.jpg" mode="widthFix"></image></view>
     <view slot="footer">不错哦 点赞</view>
+    <view slot="footer">不错哦 点赞</view>
 </i-card>
 <i-card title="23" extra="..." thumb="/static/images/004.png">
     <view slot="content"><image src="/static/images/23.jpg" mode="widthFix"></image></view>
     <view slot="footer">爱了爱了</view>
+    <view slot="footer">不错哦 点赞</view>
 </i-card>
 
 

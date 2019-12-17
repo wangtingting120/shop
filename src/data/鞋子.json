@@ -1,11 +1,11 @@
 
     [
-        {"name":"鞋子1","address":"地址1","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍1"},
-        {"name":"鞋子2","address":"地址2","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍2"},
-        {"name":"鞋子3","address":"地址3","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍3"},
-        {"name":"鞋子4","address":"地址4","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍4"}
+      {"name":"高帮加绒帆布鞋","address":"￥156","image":"/static/images/xie11.jpg","remark":"秋冬季加绒帆布鞋女2019新款冬季鞋子女高帮潮鞋百搭韩版学生棉鞋"},
+      {"name":"英伦风马丁靴","address":"￥112","image":"/static/images/xie13.jpg","remark":"马丁靴女英伦风新款秋百搭短靴网红靴子女冬季鞋子高帮潮鞋加绒"},
+      {"name":"老爹鞋","address":"￥150","image":"/static/images/xie12.jpg","remark":"老爹鞋子ins潮鞋冬季新款百搭秋鞋厚底网红加绒运动休闲女鞋"},
+      {"name":"英伦风鞋","address":"￥178","image":"/static/images/xie14.jpg","remark":"棉鞋女冬加绒秋季百搭马丁靴女ins潮加厚保暖厚底英伦风"}
 
 
 
-      ]
+    ]
 

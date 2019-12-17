@@ -1,11 +1,10 @@
 
     [
-        {"name":"裤子1","address":"地址1","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍1"},
-        {"name":"裤子2","address":"地址2","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍2"},
-        {"name":"裤子3","address":"地址3","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍3"},
-        {"name":"裤子4","address":"地址4","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍4"}
+      {"name":"阔腿裤","address":"￥120","image":"/static/images/ku11.jpg","remark":"金丝绒阔腿裤高腰坠垂感加绒宽松直筒拖地加厚丝绒休闲女裤秋冬季"},
+      {"name":"阔腿裤","address":"￥122","image":"/static/images/ku12.jpg","remark":"秋冬加绒加厚垂感高腰直筒拖地裤韩版洋气百搭宽松阔腿裤女外穿"},
+      {"name":"加厚裤","address":"￥100","image":"/static/images/ku13.jpg","remark":"加绒打底裤女外穿加厚紧身显瘦九分小脚裤子秋冬2019新款"},
+      {"name":"泫雅风裤","address":"￥150","image":"/static/images/ku14.jpg","remark":"宽松直筒牛仔裤女2019秋冬款高腰显瘦泫雅老爹复古萝卜裤子哈伦"}
 
 
 
-      ]
-
+    ]

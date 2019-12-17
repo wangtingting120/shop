@@ -43,7 +43,7 @@
 </i-panel>
 
 
-<i-divider color="#ed3f14" lineColor="#ed3f14">加载已经完成,没有其他数据</i-divider>
+
 
 
 </div>
@@ -64,14 +64,14 @@ export default {
         {title:"鞋子",image:"/static/images/4.png"}
       ],
       bo:[
-        {image:"/static/images/ku1.jpg",name:"裤子",price:"100元"},
-        {image:"/static/images/wai1.jpg",name:"外套",price:"100元"},
-        {image:"/static/images/ku2.jpg",name:"裤子",price:"120元"},
-        {image:"/static/images/mao2.jpg",name:"帽子",price:"65元"},
-        {image:"/static/images/xie1.jpg",name:"鞋子",price:"100元"},
-        {image:"/static/images/wai2.jpg",name:"外套",price:"1250元"},
-        {image:"/static/images/xie2.jpg",name:"鞋子",price:"120元"},
-        {image:"/static/images/mao1.jpg",name:"帽子",price:"50元"}
+        {image:"/static/images/ku1.jpg",name:"哈伦裤",price:"￥100元"},
+        {image:"/static/images/wai1.jpg",name:"毛领外套",price:"￥100元"},
+        {image:"/static/images/ku2.jpg",name:"老爹裤",price:"￥120元"},
+        {image:"/static/images/mao2.jpg",name:"贝雷帽",price:"￥65元"},
+        {image:"/static/images/xie1.jpg",name:"小白鞋",price:"￥100元"},
+        {image:"/static/images/wai2.jpg",name:"风衣外套",price:"￥1250元"},
+        {image:"/static/images/xie2.jpg",name:"马丁靴",price:"￥120元"},
+        {image:"/static/images/mao1.jpg",name:"针织帽",price:"￥50元"}
       ],
       imgUrls:[
         'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
@@ -115,17 +115,16 @@ div >>> .split{
 }
 .search{
   display:flex;
-  height:60rpx;
-  border:1px solid rgb(235, 129, 29);
+  height:65rpx;
+  border:1px solid rgb(55, 63, 45);
   padding-left:20rpx;
   color:#6666;
-  border-radius:30rpx;
+  border-radius:40rpx;
   margin:10rpx 0;
   font-size:22rpx;
   background-color: white;
 }
 .wrap{
-  background-color: rgba(187, 20, 20, 0.4);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -135,16 +134,18 @@ div >>> .split{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:46%;
-  margin:6rpx 10rpx;
-  background-color: rgba(12, 10, 31, 0.4);
-  border-bottom-left-radius: 16rpx;
-  border-bottom-right-radius: 16rpx;
+  width:45%;
+  margin:10px auto;
+  background-color: rgba(117, 157, 167, 0.4);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #888888;
 }
 .product image{
-  width:100%;
+  width:80%;
   border-top-left-radius: 16rpx;
   border-top-right-radius: 16rpx;
+  height: 180px;
+
 }
 .info{
   display: flex;
@@ -157,6 +158,6 @@ div >>> .split{
   color:white;
 }
 .info .price{
-  color:red;
+  color:rgba(255, 0, 0, 0.521);
 }
 </style>

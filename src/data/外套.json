@@ -1,9 +1,9 @@
 
     [
-        {"name":"外套1","address":"地址1","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍1"},
-        {"name":"外套2","address":"地址2","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍2"},
-        {"name":"外套3","address":"地址3","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍3"},
-        {"name":"外套4","address":"地址4","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍4"}
+        {"name":"港风外套","address":"￥156","image":"/static/images/wai11.jpg","remark":"港风情侣款2019新款冬季原宿风加厚撞色宽松羊羔毛羊毛冬外套女"},
+        {"name":"棉衣外套","address":"￥512","image":"/static/images/wai12.jpg","remark":"棉衣冬季外套2019新款韩版潮流羽绒棉服ins潮牌工装棉袄冬装"},
+        {"name":"复古外套","address":"￥200","image":"/static/images/wai13.jpg","remark":"复古港味羊羔毛外套女秋冬2019新款韩版百搭宽松bf风原宿棒球服潮"},
+        {"name":"棉衣外套","address":"￥150","image":"/static/images/wai14.jpg","remark":"渐变羽绒棉服亮面反光棉袄外套大码面包服棉衣冬季"}
 
 
 
