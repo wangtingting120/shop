@@ -12,7 +12,7 @@
       </swiper-item>
       </swiper>
       </view>
-    <view slot="footer">不错哦 </view>
+    <view slot="footer">不错哦 帽子很喜欢 </view>
 </i-card>
 <i-card title="哈皮" extra="..." thumb="/static/images/002.jpg">
     <view slot="content">
@@ -30,12 +30,12 @@
 <i-card title="哈皮" extra="..." thumb="/static/images/003.png">
     <view slot="content"><image src="/static/images/22.jpg" mode="widthFix"></image></view>
     <view slot="footer">不错哦 点赞</view>
-    <view slot="footer">不错哦 点赞</view>
+    <view slot="footer">很喜欢❥(^_-)</view>
 </i-card>
 <i-card title="23" extra="..." thumb="/static/images/004.png">
     <view slot="content"><image src="/static/images/23.jpg" mode="widthFix"></image></view>
     <view slot="footer">爱了爱了</view>
-    <view slot="footer">不错哦 点赞</view>
+    <view slot="footer">不错哦 o(￣▽￣)ｄ</view>
 </i-card>
 
 

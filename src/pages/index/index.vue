@@ -10,11 +10,11 @@
     :interval="interval"
     :duration="duration"
     :circular="circular"
-    
+   
     >
     <block v-for="img in imgUrls" :key="img">
       <swiper-item>
-        <image :src="img" style="width:100%"/>
+        <image :src="img"/>
       </swiper-item>
       </block>
       </swiper>
@@ -56,7 +56,7 @@
 export default {
   data () {
     return {
-      title_name:"热门",
+      title_name:"--------------------热门----------------------",
       grids:[
         {title:"外套",image:"/static/images/1.png"},
         {title:"帽子",image:"/static/images/2.png"},
@@ -74,9 +74,11 @@ export default {
         {image:"/static/images/mao1.jpg",name:"针织帽",price:"￥50元"}
       ],
       imgUrls:[
-        'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
-        'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
-        'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640'
+        '/static/images/h1.jpg',
+        '/static/images/h2.jpg',
+        '/static/images/h5.jpg',
+        '/static/images/h4.jpg'
+        
 
       ],
       indicatorDots: false,
@@ -136,7 +138,7 @@ div >>> .split{
   align-items: center;
   width:45%;
   margin:10px auto;
-  background-color: rgba(117, 157, 167, 0.4);
+  background-color: rgba(11, 54, 65, 0.4);
   border-radius: 10px;
   box-shadow: 2px 2px 10px #888888;
 }
@@ -156,6 +158,7 @@ div >>> .split{
 }
 .name{
   color:white;
+  size: 10;
 }
 .info .price{
   color:rgba(255, 0, 0, 0.521);

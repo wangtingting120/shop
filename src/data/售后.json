@@ -1,9 +1,7 @@
 [
-    {"name":"售后1","address":"地址1","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍1"},
-    {"name":"售后2","address":"地址2","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍2"},
-    {"name":"售后3","address":"地址3","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍3"},
-    {"name":"售后4","address":"地址4","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍4"}
-
+  
+  {"name":"帽子","address":"","image":"/static/images/mao13.jpg","remark":"评价"},
+  {"name":"渔夫帽","address":"","image":"/static/images/mao14.jpg","remark":"评价"}
 
 
   ]
