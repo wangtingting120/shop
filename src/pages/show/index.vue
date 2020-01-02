@@ -38,6 +38,11 @@
     <view slot="footer">不错哦 o(￣▽￣)ｄ</view>
 </i-card>
 
+<i-card v-for="item in show" :key="item" i-class="split" :extra="item.name" :thumb="item.image">
+          <view slot="content">{{item.remark}}</view>
+          <view slot="footer">{{item.address}}</view>
+ </i-card>
+
 
 
 </div>
@@ -50,11 +55,15 @@
 export default {
   data () {
     return {
-     
+     show:[] 
      
       
       }
    
+  },
+  onLoad (option){
+    this.show = require('@/data/' + option.type + '.json')
+    console.log(this.show)
   },
 
   methods: {
