@@ -1,5 +1,5 @@
 {
-    "navigationBarTitleText": "在线购物",
+    "navigationBarTitleText": "购物车 ",
     "usingComponents": {
         "i-grid": "../../../static/dist/grid/index",
         "i-grid-item": "../../../static/dist/grid-item/index",
@@ -9,6 +9,7 @@
         "i-card": "../../../static/dist/card/index",
         "i-cell-group":"../../../static/dist/cell-group/index",
         "i-input": "../../static/dist/input/index",
-        "i-divider": "../../static/dist/divider/index"
+        "i-divider": "../../static/dist/divider/index",
+        "i-modal": "../../static/dist/modal/index"
     }
 }

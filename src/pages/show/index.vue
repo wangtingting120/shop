@@ -1,7 +1,7 @@
 <template>
   <div>
   
-<i-card title="哈哈" extra="..." thumb="/static/images/001.png" class="tou">
+<i-card title="哈哈" extra="..." thumb="/static/images/001.png" >
     <view slot="content">
       <swiper autoplay circular indicator-dots>
       <swiper-item>
@@ -27,10 +27,12 @@
       </view>
     <view slot="footer">超喜欢 点赞</view>
 </i-card>
+
 <i-card title="哈皮" extra="..." thumb="/static/images/003.png">
     <view slot="content"><image src="/static/images/22.jpg" mode="widthFix"></image></view>
     <view slot="footer">不错哦 点赞</view>
-    <view slot="footer">很喜欢❥(^_-)</view>
+   
+
 </i-card>
 <i-card title="23" extra="..." thumb="/static/images/004.png">
     <view slot="content"><image src="/static/images/23.jpg" mode="widthFix"></image></view>
@@ -45,6 +47,8 @@
 
 
 
+
+
 </div>
  
 </template>
@@ -54,17 +58,16 @@
 
 export default {
   data () {
+
     return {
-     show:[] 
+      
+    
      
       
       }
    
   },
-  onLoad (option){
-    this.show = require('@/data/' + option.type + '.json')
-    console.log(this.show)
-  },
+
 
   methods: {
 
@@ -87,4 +90,5 @@ swiper swiper-item{
 image{
   width:100%;
 }
+
 </style>

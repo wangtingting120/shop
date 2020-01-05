@@ -17,11 +17,7 @@
       </view>
     </scroll-view>
 
-   
-
-
-    
-    <view class="bottom">
+   <view class="bottom">
       <button>
         去付款
         <text>￥{{price}}</text>
@@ -47,10 +43,10 @@ export default {
     return {
      title_name:"",
      bo:[
-        {name:"牛仔裤",image:"/static/images/-1.jpg",id:"1",price:"100"},
-        {name:"百褶裙",image:"/static/images/-2.jpg",id:"2",price:"100"},
-        {name:"毛茸茸的帽子",image:"/static/images/-3.jpg",id:"3",price:"20"},
-        {name:"超厚的外套",image:"/static/images/-4.jpg",id:"4",price:"60"}
+        {name:"牛仔裤",image:"/static/images/-1.jpg",id:"1",price:"￥100"},
+        {name:"百褶裙",image:"/static/images/-2.jpg",id:"2",price:"￥100"},
+        {name:"毛茸茸的帽子",image:"/static/images/-3.jpg",id:"3",price:"￥20"},
+        {name:"超厚的外套",image:"/static/images/-4.jpg",id:"4",price:"￥60"}
       ],
       value:false,
       price:0
@@ -90,6 +86,8 @@ scroll-view{
 .product image{
   width: 200rpx;
   border-radius: 5px;
+  margin: 10px;
+
 }
 .info{
   width:80%;

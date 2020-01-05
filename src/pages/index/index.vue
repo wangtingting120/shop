@@ -118,7 +118,7 @@ div >>> .split{
 .search{
   display:flex;
   height:65rpx;
-  border:1px solid rgb(55, 63, 45);
+  border:1px solid  rgba(11, 54, 65, 0.4);
   padding-left:20rpx;
   color:#6666;
   border-radius:40rpx;
