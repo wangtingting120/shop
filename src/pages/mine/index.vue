@@ -35,8 +35,6 @@
    </view>
     <view slot="footer"></view>
 </i-card>
- 
-
 
 
   </div>
@@ -60,7 +58,6 @@ export default {
         {title:"客服小蜜",image:"/static/images/ke.png"},
         {title:"主题换肤",image:"/static/images/zhu.png"}
       ],
-    
 
       
     }
@@ -74,7 +71,7 @@ export default {
       mpvue.navigateTo({url})
 
     }
- 
+      
   },
 
   created () {
@@ -104,6 +101,7 @@ export default {
   border: 2px solid #fff;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
+
 div >>> .no-border{
   border-width:0pt;
 }
